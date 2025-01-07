@@ -1,0 +1,93 @@
+
+
+
+.portfolio {
+    border-radius: 15%;
+}
+
+.header {
+    background-color: #176B87;
+    font-family: "Roboto Condensed", serif;
+}
+
+body {
+    background-color: #EEF5FF;
+    font-family: "Roboto Condensed", serif;
+}
+.text-body-emphasis {
+    color: #B4D4FF !important;
+}
+h2 {
+    color: #176B87;
+    font-weight: 900;
+    font-family: "Roboto Condensed", serif;
+}
+
+.border-bottom {
+    border-color: #B4D4FF !important;
+}
+.lead {
+    color: #EEF5FF;
+    font-weight:100;
+}
+
+.container-portfolio {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 6fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.text-body-emphasis-sub {
+    color: #176B87; 
+    font-weight: 700;
+}
+.text-body-sub {
+    color: #176B87;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.c-img {
+height:500px;
+object-fit: cover;
+border: solid 10px #B4D4FF;
+}
+
+.carousel-caption {
+    background-color: #86B6F6ab;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.carousel-header {
+    text-align: center !important;
+    margin: 5px !important;
+}
+
+#contactme {
+    background-color: #176B87
+}
+
+.text-body {
+    color: #EEF5FF !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #176B87;
+    --bs-btn-bg: #EEF5FF;
+    --bs-btn-border-color: #EEF5FF;
+    --bs-btn-hover-color: #176B87;
+    --bs-btn-hover-bg: #b4b4b4;
+    --bs-btn-hover-border-color: #b4b4b4;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #B4D4FF;
+    --bs-btn-active-border-color: #B4D4FF;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #b4b4b4;
+    --bs-btn-disabled-border-color: #b4b4b4;
+}
+
